@@ -4,21 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
+    <title>Assignment 02</title>
   </head>
   <body class="inter-font">
     <header>
       <nav>
         <h3 class="nav-tittle">Fitness</h3>
+        <a href="#"> <button class="nav-burger">||||</button></a>
+
+
+        <!-------------- try nested menubar for small device... ---------------->
+
+        <!-- <ul>
+          <li><a href="#"> <button class="nav-burger">||||</button></a></li>
+          <ul class="">
+            <li class="mrgn">
+             <a href="#" class="mrgn">Home<a>         
+            </li>
+            <li class="mrgn"><a href="#">Service</a></li>
+            <li class="mrgn"><a href="#">Contact</a></li>
+            <li><a class="padin-about" href="#footer">About</a></li>
+          </ul>
+        </ul> -->
+
         <ul class="nav-link-box">
-          <!-- <li><a class="common-btn" href="">Home</a></li> -->
           <li class="mrgn">
-            <button class="common-btn nav-btn-mrgn">Home</button>
+           <a href="#"> <button class="common-btn nav-btn-mrgn">Home</button></a>
           </li>
           <li class="mrgn"><a href="#">Service</a></li>
           <li class="mrgn"><a href="#">Contact</a></li>
-          <li><a class="padin-about" href="#">About</a></li>
+          <li><a class="padin-about" href="#footer">About</a></li>
         </ul>
+
+
       </nav>
       <section class="header-content">
         <div class="header-text-box">
@@ -27,23 +45,20 @@
             healthy
           </h1>
           <p class="header-text">
-            A huge selection of health and fitness content, healthy recipes<br />and
+            A huge selection of health and fitness content, healthy recipes and
             transformation stories to help you get fit and stay fit!
           </p>
           <br />
-          <button class="common-btn">Join Club Now!</button>
-          <button class="app-btn">Download App</button>
+          <a href="#"><button class="common-btn">Join Club Now!</button></a>
+          <a href="#"><button class="app-btn">Download App</button></a>
         </div>
         <div class="header-img">
-
           <img src="images/Images 2.png" alt="Picture of a trainer" />
 
           <div class="vid-box-top">
             <h3 class="top-box-tittle">500+</h3>
             <p class="header-text">Free Workout Videos</p>
           </div>
-
-          
 
           <div class="vid-box-down">
             <div class="circle"></div>
@@ -57,51 +72,231 @@
     </header>
     <main>
       <section class="habit">
-
         <div class="habit-contant">
           <div class="habit-box">
             <h2 class="common-tittle">Chnage Your Habits</h2>
-            <p class="common-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <p class="common-text">
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym.
+            </p>
           </div>
           <div class="box-items">
             <div class="box">
-              <img src="images/image 3.png" alt="">
+              <img src="images/image 3.png" alt="" />
               <h4 class="havit-tittle">Movement</h4>
-              <p class="common-text">More movement means burning more calories. </p>
+              <p class="common-text">
+                More movement means burning more calories.
+              </p>
             </div>
             <div class="box">
-              <img src="images/image 2.png" alt="">
+              <img src="images/image 2.png" alt="" />
               <h4 class="havit-tittle">Time</h4>
-              <p class="common-text">Time is so necessary for for making a good habit.</p>
+              <p class="common-text">
+                Time is so necessary for for making a good habit.
+              </p>
             </div>
             <div class="box">
-              <img src="images/image 4.png" alt="">
+              <img src="images/image 4.png" alt="" />
               <h4 class="havit-tittle">Practice</h4>
-              <p class="common-text">Daily practice is must to build a good health and a good habit.</p>
+              <p class="common-text">
+                Daily practice is must to build a good health and a good habit.
+              </p>
             </div>
             <div class="box">
-              <img src="images/image 5.png" alt="">
+              <img src="images/image 5.png" alt="" />
               <h4 class="havit-tittle">Weight Loss</h4>
-              <p class="common-text">A perfect weight gives a man a perfect look.</p>
+              <p class="common-text">
+                A perfect weight gives a man a perfect look.
+              </p>
             </div>
           </div>
         </div>
-
       </section>
 
       <section class="run">
-          <div class="run-box">
-            <div class="run-text-box">
-              <h2 class="common-tittle margin-run">Run an Extra<br>Mile Easily</h2>
-              <p class="common-text align-left">We believe fitness should be accessible to everyone,<br>everywhere, regardless of income or access to a gym.<br>With hundreds of professional workouts.</p>
-              <button class="common-btn">Join Now</button>
-            </div>
-            <div>
-              <img class="running"  src="images/run.jpg" alt="running guy">
-            </div>
+        <div class="run-box">
+          <div class="run-text-box">
+            <h2 class="common-tittle margin-run">
+              Run an Extra<br />Mile Easily
+            </h2>
+            <p class="common-text align-left">
+              We believe fitness should be accessible to everyone,everywhere,
+              regardless of income or access to a gym.With hundreds of
+              professional workouts.
+            </p>
+            <a href="#"><button class="common-btn">Join Now</button></a>
           </div>
+          <div>
+            <img class="running" src="images/run.jpg" alt="running guy" />
+          </div>
+        </div>
       </section>
 
+      <section class="bmi">
+        <div class="bmi-text-box">
+          <h2 class="common-tittle left">BMI Calculator</h2>
+          <p class="common-text left">
+            BMI means Body Mass Index. BMI indicates your health. There is a standard value of BMI based on different weight and height. A good BMI value indicates a good health. Always try to keep your BMI in healthy state.
+          </p>
+        </div>
+      </section>
+
+      <section class="bmi-table">
+        <div class="bmi-contant">
+          <div class="bmi-chart">
+            <h4 class="down-box-tittle">BMI Calculator Chart</h4>
+            <br /><br />
+            <table>
+              <tr>
+                <th>BMI</th>
+                <th>Weight Status</th>
+              </tr>
+              <tr>
+                <td>Below 18.5</td>
+                <td>UnderWeight</td>
+              </tr>
+              <tr>
+                <td>18.5 - 24.9</td>
+                <td>Healthy</td>
+              </tr>
+              <tr>
+                <td>25.0 - 29.9</td>
+                <td>OverWeight</td>
+              </tr>
+              <tr>
+                <td>30.0 - and Above</td>
+                <td>Obese</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="bmi-calc">
+            <h4 class="down-box-tittle">Calculate your BMI</h4>
+            <p class="common-text left">
+              We believe fitness should be accessible to everyone,everywhere,
+              regardless of income or access to a gym.
+            </p>
+            <div>
+              <form>
+                <input
+                  class="bmi-input"
+                  type="number"
+                  placeholder="Height/cm"
+                />
+                <input
+                  class="bmi-input"
+                  type="number"
+                  placeholder="Weight/Kg"
+                />
+                <br />
+                <br />
+                <input class="bmi-input" type="number" placeholder="Age" />
+                <select class="bmi-input" name="Sex">
+                  <option class="bmi-optn" value="Sex">Sex</option>
+                  <option class="bmi-optn" value="Male">Male</option>
+                  <option class="bmi-optn" value="Female">
+                    Female
+                  </option></select
+                ><br />
+                <br />
+                <select class="bmi-input" name="activity factor">
+                  <option class="bmi-optn" value="">
+                    Select an activity factor
+                  </option>
+                  <option class="bmi-optn" value="">Daily</option>
+                  <option class="bmi-optn" value="">Weekly</option>
+                  <option class="bmi-optn" value="">Monthly</option>
+                </select>
+              </form>
+            </div>
+            <br />
+            <a href="#"><button class="common-btn">Calculate</button></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="food">
+        <div class="food-text-box">
+          <h2 class="common-tittle left">Eat Healthy Food</h2>
+          <p class="common-text left">A healthy food habit help to increase metabolism. It also helps to repair our body muscles. Our body needs many vitamins and minerals to grow and repair our muscles. So, a healthy food habit is must to build a healthy body.</p>
+        </div>
+        <div class="food-img-box">
+          <div class="row-1">
+            <div class="row-p1">
+              <img class="sq-img" src="images/Project Cover8.png" alt="Healthy Food Image">
+              <img class="sq-img" src="images/Project Cover5.png" alt="Healthy Food Image">
+              <img class="sq-img" src="images/Project Cover7.png" alt="Healthy Food Image">
+              <img class="sq-img" src="images/Project Cover8.png" alt="Healthy Food Image">
+            </div>
+            <div class="row-p2">
+              <img class="d1" src="images/Project Cover2.png" alt="Healthy Food Image">
+              <img class="d2" src="images/Project Cover2-90.png" alt="Healthy Food Image">
+
+            </div>
+          </div>
+          <div class="row-2">
+            <img src="images/Project Cover4.png" alt="Healthy Food Image">
+          </div>
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="team-content">
+          <div class="team-text-box">
+            <h2 class="common-tittle">Meet Our Team</h2>
+            <p class="common-text">
+              We believe fitness should be accessible to everyone,everywhere,
+              regardless of income or access to a gym.
+            </p>
+          </div>
+          <div class="team-members">
+            <img src="images/trainer1.png" alt="Image of a Trainer" />
+            <img src="images/trainer2.png" alt="Image of a Trainer" />
+            <img src="images/trainer3.png" alt="Image of a Trainer" />
+            <img src="images/trainer4.png" alt="Image of a Trainer" />
+            <img src="images/trainer5.png" alt="Image of a Trainer" />
+            <img src="images/trainer6.png" alt="Image of a Trainer" />
+          </div>
+        </div>
+      </section>
     </main>
+    <footer id="footer">
+      <div class="footer">
+        <div>
+          <h1 class="nav-tittle left">Fitness</h1>
+          <p class="common-text left">
+            We believe fitness should be accessible to everyone,<br />
+            everywhere, regardless of income or access to a gym.<br />With
+            hundreds of professional workouts.
+          </p>
+        </div>
+
+        <div class="f-side">
+          <div class="gap">
+            <ul>
+              <li><h3 class="down-box-tittle left">Get Started</h3></li>
+              <br />
+              <li>Service</li>
+              <li>Contact Us</li>
+              <li>Affiliate Program</li>
+              <li>About Us</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><h3 class="down-box-tittle left">Get Started</h3></li>
+              <br />
+              <li>Fitness</li>
+              <li>Platform</li>
+              <li>Workout Library</li>
+              <li>App Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <p class="header-text center">All right reserved @Fitness 2024</p>
+    </footer>
   </body>
 </html>
