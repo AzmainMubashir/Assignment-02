@@ -404,6 +404,10 @@ footer {
 .gap {
   margin-right: 50px;
 }
+.footer-hr{
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  width: 1000px;
+}
 
 /* ---------- Responsive for Small Mobile Device ---------- */
 
@@ -527,4 +531,7 @@ footer {
     display: none;
   }
   .d2{display: grid;}
+  .footer-hr{
+    width: 340px;
+  }
 }
