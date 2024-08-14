@@ -33,7 +33,7 @@ body {
 }
 .common-tittle {
   color: rgb(255, 255, 255);
-  font-size: 3rem;
+  font-size: 2.75rem;
   font-weight: 900;
   margin-top: 50px;
   margin-bottom: 15px;
@@ -175,6 +175,9 @@ nav {
   margin: 10px 0px 0px 14px;
   background: rgb(230, 83, 60);
 }
+.play{
+  display: none;
+}
 
 .top-box-tittle {
   font-size: 2.5rem;
@@ -255,9 +258,9 @@ nav {
 }
 
 .running {
-  width: 366px;
+  width: 350px;
   /* height: 312px; */
-  border-radius: 18px;
+  border-radius: 12px;
 }
 .align-left {
   text-align: left;
@@ -298,11 +301,19 @@ td {
 }
 
 .bmi-input {
+  width: 200px;
+  margin-right: 8px;
   padding: 10px;
   border-radius: 8px;
   border: none;
   background-color: rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.25);
+}
+.bmi-select-1{
+width: 220px;
+}
+.bmi-select-2{
+width: 450px;
 }
 
 .bmi-optn {
@@ -489,6 +500,15 @@ footer {
     top: 875px;
     right: 200px;
   }
+  .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .play{
+    display: block;
+    width: 25px;
+  }
 
   .habit-box {
     text-align: center;
@@ -501,11 +521,12 @@ footer {
   .run-box {
     flex-direction: column;
     margin: 25px 20px;
-    padding: 20px;
+    padding: 10px;
   }
   .run-text-box {
     /* width: 345px; */
     margin-right: 0px;
+    margin-left: 10px;
   }
   .running {
     /* width: 345px; */
@@ -541,6 +562,21 @@ footer {
     flex-direction: column;
     margin: 0px 0px 0px 20px;
   }
+  .bmi-input {
+    width: 120px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.25);
+  }
+.bmi-select-1{
+width: 140px;
+}
+.bmi-select-2{
+width: 300px
+}
   .footer {
     align-items: flex-start;
     margin-left: 50px;
